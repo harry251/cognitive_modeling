@@ -7,7 +7,7 @@ def simulate_seir(parameters: Sequence[float],
 
     # Check input validity
     if len(parameters) != 3:
-        raise ValueError("Expected 3 parameters: beta, sigma, gamma")
+        raise ValueError("Trying to create a conflict here")
     if len(init_conditions) != 4:
         raise ValueError("Expected 4 initial conditions: S0, E0, I0, R0")
 
