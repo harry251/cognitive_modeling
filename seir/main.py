@@ -7,7 +7,7 @@ from viz import plot_results
 if __name__ == "__main__":
 
 
-    parameters = (3, 0.5, 0.5)
+    parameters = (3, 0.3, 0.8)
 
     # S0, E0, I0, R0
     inits = (9999., 1., 0., 0.)
