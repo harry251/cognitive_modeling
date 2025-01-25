@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-from simulation.simulator import simulate_seir
+from simulation import simulate_seir
 from viz.plot_seir import plot_results
 
 
