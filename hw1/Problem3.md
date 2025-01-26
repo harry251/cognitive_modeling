@@ -1,5 +1,22 @@
 # Problem 3: Git and GitHub (12 points)
 
+1. **Create a public GitHub repository, create and add a team logo to the README file, along with some basic introductory notes on why cognitive modeling is important for psychology and cognitive science.**
+
+   - Added a `README.md` file with the following:
+     - A team logo and 
+     - An introduction.
+
+   - Added an `environment.yml` file to the root directory of the repository with all the discussed dependencies.
+
+   - Created two separate branches (`Harry` and `Shichao`).
+
+2. **Create a merge conflict (either for some of the coding exercises or a mock conflict) and resolve it.**
+
+Create a mock conflict: Commit 0d1df76 (Change beta parameters on merge_conflict branch)
+   and Commit fa4e3ae (Change beta parameter on main branch)
+
+Resolved mock conflicts in the following commit: Commit d2f6d69
+
 3. **Explain the differences between the following git commands**
    - **git restore:** Used to undo changes in the working directory or staging area without affecting commit history.  
      Example: `git restore file.txt`  
