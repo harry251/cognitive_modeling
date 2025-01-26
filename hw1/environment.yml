@@ -1,4 +1,4 @@
-name: cognitive_modeling
+name: hw1
 dependencies:
   - python == 3.12
   - pip
