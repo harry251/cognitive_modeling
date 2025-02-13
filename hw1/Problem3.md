@@ -37,4 +37,4 @@ Resolved mock conflicts in the following commit: Commit d2f6d69
 |---------------|------------------------------|---------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------|
 | `git reset`   | Yes (depending on mode)      | Yes                       | Yes (in `--hard` mode)         | Unstage changes (`--mixed`), move HEAD to a prior commit, or reset both staging and working directory (`--hard`). |
 | `git restore` | No                           | Yes (with `--staged`)     | Yes                            | Discard changes in the working directory or unstage files with `--staged`. Used for undoing without affecting history. |
-| `git rm`      | Yes (if staged/committed)    | Yes                       | Yes                            | Remove a file from both the working directory and staging area, or just the staging area with `--cached`. |
+| `git rm`      | No                           | Yes                       | Yes                            | Remove a file from both the working directory and staging area, or just the staging area with `--cached`. |
