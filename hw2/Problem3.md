@@ -1,41 +1,27 @@
 ## Problem 3:
 
 ### 1. Show the following identity for the variance of a random variable $X$:
-$$
-\operatorname{Var}[X] = E[X^2] - E[X]^2.
-$$
+$$ Var[X] = E[X^2] - E[X]^2. $$
 ---
 
-By definition, $\operatorname{Var}[X] = E\bigl[(X - E[X])^2\bigr].$
+By definition, $Var[X] = E\bigl[(X - E[X])^2\bigr].$
 
 Expand the square inside the expectation:
-$$
-E[(X - E[X])^2] = E[X^2 - 2X\,E[X] + E[X]^2].
-$$
+$$ E[(X - E[X])^2] = E[X^2 - 2X\,E[X] + E[X]^2]. $$
 
 Using the linearity of expectation, 
-$$
-E[X^2 - 2X\,E[X] + E[X]^2] = E[X^2] - 2E[X]\,E[X] + E[X]^2
-$$
+$$ E[X^2 - 2X\,E[X] + E[X]^2] = E[X^2] - 2E[X]\,E[X] + E[X]^2 $$
 
-$$
-=E[X^2] - 2E[X]^2 + E[X]^2 = E[X^2] - E[X]^2.
-$$
+$$ =E[X^2] - 2E[X]^2 + E[X]^2 = E[X^2] - E[X]^2. $$
 
 
 Hence, we have shown that
 
-$$
-\boxed{
-\operatorname{Var}[X] = E[X^2] - E[X]^2.
-}
-$$
+$$\boxed{Var[X] = E[X^2] - E[X]^2.}$$
 
 ### 2. Show the following property for the variance of a random variable $X$ and a scalar $\alpha$:
 
-$$
-\mathrm{Var}[\alpha X + \beta\,] = \alpha^2 \,\mathrm{Var}[X].
-$$
+$$ Var[\alpha X + \beta] = a^2 \,Var[X] $$
 ---
 
 Using defintion of variance,
@@ -75,7 +61,7 @@ $$
 Thus, we have shown:
 
 $$
-\boxed{\mathrm{Var}[\,aX + b\,] = a^2 \,\mathrm{Var}[X].}
+\boxed{Var[\alpha X + \beta] = a^2 \,Var[X].}
 $$
 
 ### 3. Assume you are given a random variable $X$ with a standard normal distribution (mean zero, variance one). We can write this as

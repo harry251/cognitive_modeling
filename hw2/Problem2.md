@@ -7,7 +7,7 @@ $$ = -1.2\% $$
 
 **Decision:** No invest  
 
-If fixed, assume $ p $ is the probability of the market going up:
+If fixed, assume $p$ is the probability of the market going up:
 
 $$ (p \times 0.01) + (1 - p) \times (-0.1) \geq 0 $$  
 $$ 0.01p - 0.1 + 0.1p \geq 0 $$  
