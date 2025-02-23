@@ -33,6 +33,6 @@ $$= \frac{1}{9} \div \frac{5}{9}$$
 
 $$= 0.2$$
 
-Thus, $P(T|Y) = $ 20\%.
+Thus, $P(T|Y) =$ 20\%.
 
 There is only a **20%** chance the original statement indeed true. 
