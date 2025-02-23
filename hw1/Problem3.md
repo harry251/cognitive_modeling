@@ -1,5 +1,22 @@
 # Problem 3: Git and GitHub (12 points)
 
+1. **Create a public GitHub repository, create and add a team logo to the README file, along with some basic introductory notes on why cognitive modeling is important for psychology and cognitive science.**
+
+   - Added a `README.md` file with the following:
+     - A team logo and 
+     - An introduction.
+
+   - Added an `environment.yml` file to the root directory of the repository with all the discussed dependencies.
+
+   - Created two separate branches (`Harry` and `Shichao`).
+
+2. **Create a merge conflict (either for some of the coding exercises or a mock conflict) and resolve it.**
+
+Create a mock conflict: Commit 0d1df76 (Change beta parameters on merge_conflict branch)
+   and Commit fa4e3ae (Change beta parameter on main branch)
+
+Resolved mock conflicts in the following commit: Commit d2f6d69
+
 3. **Explain the differences between the following git commands**
    - **git restore:** Used to undo changes in the working directory or staging area without affecting commit history.  
      Example: `git restore file.txt`  
@@ -20,4 +37,4 @@
 |---------------|------------------------------|---------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------|
 | `git reset`   | Yes (depending on mode)      | Yes                       | Yes (in `--hard` mode)         | Unstage changes (`--mixed`), move HEAD to a prior commit, or reset both staging and working directory (`--hard`). |
 | `git restore` | No                           | Yes (with `--staged`)     | Yes                            | Discard changes in the working directory or unstage files with `--staged`. Used for undoing without affecting history. |
-| `git rm`      | Yes (if staged/committed)    | Yes                       | Yes                            | Remove a file from both the working directory and staging area, or just the staging area with `--cached`. |
+| `git rm`      | No                           | Yes                       | Yes                            | Remove a file from both the working directory and staging area, or just the staging area with `--cached`. |
