@@ -28,7 +28,7 @@ The accuracy of the approximate probabilities improves as the number of simulati
 
 For example, with $N = 30{,}000$:
 - For a probability of around $0.30$, the standard error is approximately:
-  $$
-  \sqrt{\frac{0.3 \times (1 - 0.3)}{30{,}000}} \approx 0.0026,
-  $$
+
+  $$\sqrt{\frac{0.3 \times (1 - 0.3)}{30{,}000}} \approx 0.0026,$$
+  
 which is very small. This means the simulation estimates would be almost indistinguishable from the analytic probabilities.
