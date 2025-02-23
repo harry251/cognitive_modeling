@@ -28,7 +28,7 @@ Given a suspect, we define the likelihood of using each tool to reach the high c
 - **For Kevin:**  
    - **Stool:** $P(\text{stool} \mid \text{Kevin}) = 0.5$  
    *Justification:* Being taller, Kevin can often get by with the simpler stool.  
-   - **Tall Chair:** $P(\text{tall\_chair} \mid \text{Kevin}) = 0.4$  
+   - **Tall Chair:** $P(\text{tallchair} \mid \text{Kevin}) = 0.4$  
    *Justification:* If a stool seems too risky (e.g., due to potential traces), he might opt for the chair.  
    - **Stepladder:** $P(\text{stepladder} \mid \text{Kevin}) = 0.1$  
    *Justification:* Kevin is less inclined to go through the hassle of using and setting up a stepladder.
@@ -36,7 +36,7 @@ Given a suspect, we define the likelihood of using each tool to reach the high c
 - **For Joe:**  
    - **Stool:** $P(\text{stool} \mid \text{Joe}) = 0.2$  
    *Justification:* The stool is less likely for Joe since his height makes it a poor option.  
-   - **Tall Chair:** $P(\text{tall\_chair} \mid \text{Joe}) = 0.5$  
+   - **Tall Chair:** $P(\text{tallchair} \mid \text{Joe}) = 0.5$  
    *Justification:* Joe would prefer the tall chair as it is more stable and accessible.  
    - **Stepladder:** $P(\text{stepladder} \mid \text{Joe}) = 0.3$  
    *Justification:* In some cases, if the tall chair isn’t available or seems too conspicuous, Joe might use the stepladder.
@@ -46,10 +46,10 @@ By multiplying the prior with the tool likelihood for each suspect, we obtain th
 
 - **Kevin:**  
    - $$P(\text{Kevin, stool}) = 0.4 \times 0.5 = 0.20$$  
-   - $$P(\text{Kevin, tall\_chair}) = 0.4 \times 0.4 = 0.16$$  
+   - $$P(\text{Kevin, tallchair}) = 0.4 \times 0.4 = 0.16$$  
    - $$P(\text{Kevin, stepladder}) = 0.4 \times 0.1 = 0.04$$
 
 - **Joe:**  
    - $$P(\text{Joe, stool}) = 0.6 \times 0.2 = 0.12$$  
-   - $$P(\text{Joe, tall\_chair}) = 0.6 \times 0.5 = 0.30$$  
+   - $$P(\text{Joe, tallchair}) = 0.6 \times 0.5 = 0.30$$  
    - $$P(\text{Joe, stepladder}) = 0.6 \times 0.3 = 0.18$$
