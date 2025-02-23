@@ -1,5 +1,3 @@
-<!-- story.md -->
-
 # The Case of the Missing Cookie
 
 ## Setting
