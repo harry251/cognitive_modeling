@@ -22,7 +22,6 @@ We begin by assigning a prior probability for each suspect based on their known 
 - **Kevin:** $P(\text{Kevin}) = 0.4$
 - **Joe:** $P(\text{Joe}) = 0.6$
 
-
 ### Likelihood (Tool Selection)
 Given a suspect, we define the likelihood of using each tool to reach the high cabinet:
 
@@ -46,11 +45,11 @@ Given a suspect, we define the likelihood of using each tool to reach the high c
 By multiplying the prior with the tool likelihood for each suspect, we obtain the analytic joint probabilities:
 
 - **Kevin:**  
-  - $$P(\text{Kevin, stool}) = 0.4 \times 0.5 = 0.20$$  
-  - $$P(\text{Kevin, tall\_chair}) = 0.4 \times 0.4 = 0.16$$  
-  - $$P(\text{Kevin, stepladder}) = 0.4 \times 0.1 = 0.04$$
+   - $$P(\text{Kevin, stool}) = 0.4 \times 0.5 = 0.20$$  
+   - $$P(\text{Kevin, tall\_chair}) = 0.4 \times 0.4 = 0.16$$  
+   - $$P(\text{Kevin, stepladder}) = 0.4 \times 0.1 = 0.04$$
 
 - **Joe:**  
-  - $$P(\text{Joe, stool}) = 0.6 \times 0.2 = 0.12$$  
-  - $$P(\text{Joe, tall\_chair}) = 0.6 \times 0.5 = 0.30$$  
-  - $$P(\text{Joe, stepladder}) = 0.6 \times 0.3 = 0.18$$
+   - $$P(\text{Joe, stool}) = 0.6 \times 0.2 = 0.12$$  
+   - $$P(\text{Joe, tall\_chair}) = 0.6 \times 0.5 = 0.30$$  
+   - $$P(\text{Joe, stepladder}) = 0.6 \times 0.3 = 0.18$$
