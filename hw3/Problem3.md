@@ -1,5 +1,13 @@
 ## Problem 3:
 
+Given any prior and posterior:
+
+$1. Var[\theta] \text{ - Prior variance.}$
+
+$2. E[Var[\theta | y]] \text{ - Expected posterior variance.}$
+
+$3. Var[E[\theta | y]] \text{ - Variance of posterior mean.}$
+
 From the RHS, 
 
 $$E[Var[\theta | y]] + Var [E[\theta | y]]$$
@@ -16,4 +24,4 @@ $$= E[\theta^2] - (E[\theta])^2$$
 
 $$= Var[\theta] $$
 
-Hence shown that $Var[\theta] = E[Var[\theta | y]] + Var [E[\theta | y]]$.
+Hence shown that the identity $Var[\theta] = E[Var[\theta | y]] + Var [E[\theta | y]]$ holds for any given prior and posterior.
