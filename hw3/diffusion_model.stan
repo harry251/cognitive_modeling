@@ -6,31 +6,37 @@ data {
 }
 
 parameters {
-    // Your code here
+    array[2] real v;
+    real<lower=0> a;
+    real<lower=0, upper=1> b;
+    real<lower=0> tau;
 }
 
 model {
     // Priors
-    // Your code here
+    v ~ normal(0, 2);
+    a ~ normal(1, 1);
+    b ~ beta(1, 1);
+    tau ~ normal(0.3, 0.2);
 
     // Likelihood
     for (n in 1:N) {
         // Condition 1
         if (condition[n] == 1) {
             if (choice[n] == 1) {
-                 // Your code here
+                y[n] ~ wiener(a, tau, b, v[1]);
             }
             else {
-                 // Your code here
+                y[n] ~ wiener(a, tau, 1 - b, -v[1]);
             }
         }
         // Condition 2
         if (condition[n] == 2) {
             if (choice[n] == 1) {
-                // Your code here
+                y[n] ~ wiener(a, tau, b, v[2]);
             }
             else {
-                 // Your code here
+                y[n] ~ wiener(a, tau, 1 - b, -v[2]);
             }
         }
     }
